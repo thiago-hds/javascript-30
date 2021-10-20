@@ -12,3 +12,9 @@ Features:
 
 -   Play audio on key press
 -   Add transition to key when it's pressed
+
+### 2. JavaScript and CSS Clock - [Live Solution](https://thiago-hds.github.io/javascript-30/02%20-%20JS%20and%20CSS%20Clock/)
+
+Features:
+
+-   Update clock hands every second

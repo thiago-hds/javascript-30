@@ -18,3 +18,9 @@ Features:
 Features:
 
 -   Update clock hands every second
+
+### 2. Update CSS Variables with JS - [Live Solution](https://thiago-hds.github.io/javascript-30/03%20-%20CSS%20Variables/)
+
+Features:
+
+-   Update CSS variables when controls are updated

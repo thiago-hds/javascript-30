@@ -19,8 +19,14 @@ Features:
 
 -   Update clock hands every second
 
-### 2. Update CSS Variables with JS - [Live Solution](https://thiago-hds.github.io/javascript-30/03%20-%20CSS%20Variables/)
+### 3. Update CSS Variables with JS - [Live Solution](https://thiago-hds.github.io/javascript-30/03%20-%20CSS%20Variables/)
 
 Features:
 
 -   Update CSS variables when controls are updated
+
+### 4. Array Cardio Day 1 - [Live Solution](https://thiago-hds.github.io/javascript-30/04%20-%20Array%20Cardio%20Day%201/)
+
+Features:
+
+-   Just some array methods exercises

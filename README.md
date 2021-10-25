@@ -30,3 +30,9 @@ Features:
 Features:
 
 -   Just some array methods exercises
+
+### 5 - Flex Panel Gallery - [Live Solution](https://thiago-hds.github.io/javascript-30/05%20-%20Flex%20Panel%20Gallery/)
+
+Features:
+
+-   Expand panels when clicked

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Type Ahead 👀</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form class="search-form">
+			<input type="text" class="search" placeholder="City or State" />
+			<ul class="suggestions">
+				<li>Filter for a city</li>
+				<li>or a state</li>
+			</ul>
+		</form>
+		<script>
+			const endpoint =
+				'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+			const cities = [];
+			const input = document.querySelector('.search');
+			const suggestions = document.querySelector('.suggestions');
+
+			const fetchCities = async function () {
+				const res = await fetch(endpoint);
+				const citiesResponse = await res.json();
+
+				cities.push(...citiesResponse);
+
+				console.log(cities);
+			};
+
+			const queryCities = function (query) {
+				return cities.filter(city => {
+					const cityName = city.city.toLowerCase();
+					const stateName = city.state.toLowerCase();
+					const search = query.toLowerCase();
+
+					return (
+						cityName.includes(search) || stateName.includes(search)
+					);
+				});
+			};
+
+			const getFormattedCity = function ({ city, state }) {
+				const strCity = `${city}, ${state}`;
+				const query = input.value.toString();
+
+				return strCity.replace(
+					new RegExp(query, 'gi'),
+					`<span class="hl">${query}</span>`
+				);
+			};
+
+			const showSuggestions = function (result) {
+				suggestions.innerHTML = '';
+				result.forEach(city =>
+					suggestions.insertAdjacentHTML(
+						'beforeend',
+						`<li>
+							<span class="name">${getFormattedCity(city)}</span>
+							<span class="population">${city.population}</span>
+							</li>`
+					)
+				);
+			};
+
+			const handleInputChange = function () {
+				const query = this.value;
+				const citiesResult = queryCities(query);
+				console.log('query:', query);
+				console.log('results:');
+				console.log(citiesResult);
+				showSuggestions(citiesResult);
+			};
+
+			const init = async function () {
+				input.value = '';
+				await fetchCities();
+				input.addEventListener('input', handleInputChange);
+			};
+			init();
+		</script>
+	</body>
+</html>

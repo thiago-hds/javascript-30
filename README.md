@@ -36,3 +36,21 @@ Features:
 Features:
 
 -   Expand panels when clicked
+
+### 6 - Type Ahead - [Live Solution](https://thiago-hds.github.io/javascript-30/06%20-%20Type%20Ahead/)
+
+Features:
+
+-   Show suggestions of cities as user types on input
+
+### 7 - Array Cardio Day 2 - [Live Solution](https://thiago-hds.github.io/javascript-30/06%20-%20Type%20Ahead/)
+
+Features:
+
+-   Exercises using the array methods: some(), every(), find() and findIndex()
+
+### 7 - Fun With HTML 5 Canvas - [Live Solution](https://thiago-hds.github.io/javascript-30/08%20-%20Fun%20with%20HTML5%20Canvas/)
+
+Features:
+
+-   Draw on canvas as user click and drags mouse

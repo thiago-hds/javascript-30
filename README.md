@@ -49,8 +49,14 @@ Features:
 
 -   Exercises using the array methods: some(), every(), find() and findIndex()
 
-### 7 - Fun With HTML 5 Canvas - [Live Solution](https://thiago-hds.github.io/javascript-30/08%20-%20Fun%20with%20HTML5%20Canvas/)
+### 8 - Fun With HTML 5 Canvas - [Live Solution](https://thiago-hds.github.io/javascript-30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 
 Features:
 
 -   Draw on canvas as user click and drags mouse
+
+### 9 - Dev Tools Domination - [Live Solution](https://thiago-hds.github.io/javascript-30/09%20-%20Dev%20Tools%20Domination/)
+
+Features:
+
+-   Test different console methods

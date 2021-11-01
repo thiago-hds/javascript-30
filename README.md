@@ -60,3 +60,9 @@ Features:
 Features:
 
 -   Test different console methods
+
+### 10 - Hold Shift to Check Multiple Checkboxes - [Live Solution](https://thiago-hds.github.io/javascript-30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
+
+Features:
+
+-   Check one checkbox and click on another holding shift to select all the checkboxes in between

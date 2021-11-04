@@ -66,3 +66,9 @@ Features:
 Features:
 
 -   Check one checkbox and click on another holding shift to select all the checkboxes in between
+
+### 11 - Custom video player - [Live Solution](https://thiago-hds.github.io/javascript-30/11%20-%20Custom%20Video%20Player/)
+
+Features:
+
+-   JavaScript controls for video player

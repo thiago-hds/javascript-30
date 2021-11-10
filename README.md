@@ -72,3 +72,9 @@ Features:
 Features:
 
 -   JavaScript controls for video player
+
+### 12 - Key Sequence Detection - [Live Solution](https://thiago-hds.github.io/javascript-30/12%20-%20Key%20Sequence%20Detection/)
+
+Features:
+
+-   Type the "secret" code _wesbos_ to see the surprise

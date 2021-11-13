@@ -78,3 +78,15 @@ Features:
 Features:
 
 -   Type the "secret" code _wesbos_ to see the surprise
+
+### 13 - Slide in on Scroll - [Live Solution](https://thiago-hds.github.io/javascript-30/13%20-%20Slide%20in%20on%20Scroll/)
+
+Features:
+
+-   Images are loaded and transitioned as user scrolls.
+
+### 14 - JavaScript References VS Copying - [Live Solution](https://thiago-hds.github.io/javascript-30/14%20-%20JavaScript%20References%20VS%20Copying/)
+
+Features:
+
+-   Tests with references and copying of primitives and objects
